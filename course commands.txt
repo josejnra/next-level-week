@@ -1,0 +1,50 @@
+####################################################################
+                              Server
+####################################################################
+
+// criar package.json para definir dependências do projeto
+npm init -y
+
+// instalar express para criar um server app
+npm install express
+
+// instalar pacote de type do express
+npm install @types/express -D
+
+// -D signiica que não será compilado para enviar para produção. 
+
+// instalar executor para rodar app
+npm install ts-node -D
+
+// instalar typescript
+npm install typescript -D 
+
+// gerar coniguraçao tsconfig.json para o app
+npx tsc --init
+
+// executar aplicação
+npx ts-node src/server.ts
+
+// instalar executor para rodar app sem ter que ficar dando restart no app
+npm install ts-node-dev -D 
+
+// executar app com novo executor
+npx ts-node-dev src/server.ts 
+
+
+// instalar lib query builder
+npm install knex
+
+// instalar lib sqlite
+npm install sqlite3
+
+// executar migrations
+npx knex --knexile knexfile.ts migrate:latest
+
+
+####################################################################
+                              Web
+####################################################################
+// Criar react app
+npx create-react-app web --template=typescript
+
