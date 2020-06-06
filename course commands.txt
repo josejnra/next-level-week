@@ -48,3 +48,6 @@ npx knex --knexile knexfile.ts migrate:latest
 // Criar react app
 npx create-react-app web --template=typescript
 
+// Rodar aplicação
+npm start
+
