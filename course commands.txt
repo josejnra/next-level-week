@@ -51,3 +51,29 @@ npx create-react-app web --template=typescript
 // Rodar aplicação
 npm start
 
+// instalar lib de icons react
+npm install react-icons
+
+// lib para roteamento
+npm install react-router-dom
+
+// instalar lib de mapa
+npm install leaflet react-leaflet
+
+// lib para fazer requisições
+npm install axios
+
+
+
+####################################################################
+                              Mobile
+####################################################################
+// instalar lib para desenvolver app mobile, instalar globalmente no sistema
+npm install -g expo-cli
+
+// iniciar projeto com expo cli
+expo init project-name
+
+// iniciar app
+npm start
+
