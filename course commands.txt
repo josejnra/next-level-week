@@ -77,3 +77,20 @@ expo init project-name
 // iniciar app
 npm start
 
+// instalar lib para utilizar fontes do google
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+// lib para navegação no app
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install @react-navigation/stack
+
+// instalar lib de maps
+expo install react-native-maps
+
+// instalar constans
+expo install expo-constants
+
+// instalar modulo para svg
+expo install react-native-svg
