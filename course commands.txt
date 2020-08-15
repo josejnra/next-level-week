@@ -94,3 +94,12 @@ expo install expo-constants
 
 // instalar modulo para svg
 expo install react-native-svg
+
+// lib para fazer requisições em API
+npm install axios
+
+// lib para localização
+expo install expo-location
+
+// lib de mail
+expo install expo-mail-composer
